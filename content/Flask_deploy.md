@@ -4,7 +4,6 @@ Category: Python
 Tags: Python, Flask
 Slug: Flask部署
 Author: 李俊伟
-Summary: Flask+gunicorn+supervisor+Nginx部署，用gunicorn做容器，supervisor管理进程，Nginx做反向代理
 
 ## 前言
 开发完公司的数据库自动化平台，接下来就是要部署测试，之前没真正部署过，这次正好学习了，写下来部署的过程。项目用到Flask，部署采用的是gunicorn+supervisor+Nginx的方式，用gunicorn做容器，supervisor管理进程，Nginx做反向代理，以下是详细过程。
