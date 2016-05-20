@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'\u674e\u4fca\u4f1f'
 SITENAME = u'\u674e\u4fca\u4f1f\u002d\u968f\u7b14'
-#SITEURL = 'http://lijunwei.github.io/'
+SITEURL = 'http://lijunwei.github.io/'
 DEFAULT_DATE_FORMAT = ('%Y-%m-%d')
 
 PATH = 'content'
@@ -26,12 +26,11 @@ ARCHIVES_URL = 'archives.html'
 GOOGLE_ANALYTICS = 'UA-71907220-1'
 # Blogroll
 LINKS =  (('Python', 'http://python.org/'),)
-# Social widget
 SOCIAL = (('GitHub', 'https://github.com/LiJunWei/'),
 	  ('微博', 'http://weibo.com/p/1005053201246451/home'),)
 
 DEFAULT_PAGINATION = 5
 MENUITEMS = (('About','/pages/About.html'),)
-
+DISQUS_SITENAME = True
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
