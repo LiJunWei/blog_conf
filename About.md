@@ -4,4 +4,4 @@ Category:
 Slug: About
 Author: 李俊伟
 
-用Python做后端，前端略懂，在迈向全栈工程师的路上，正在学习Golang,目前在聚美优品搬砖。
+用Python和Golang做后端，前端略懂，目前在聚美优品搬砖。
